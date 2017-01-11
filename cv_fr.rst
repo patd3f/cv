@@ -6,18 +6,18 @@ CV Patrick Deflandre
 Conception et développement de systèmes embarqués Linux
 -------------------------------------------------------
 
-Grenoble, France, +33 6 77 29 85 61, patrick.deflandre@gmail.com
+Grenoble, France, +33 (0)6 77 29 85 61, patrick.deflandre@gmail.com
 
 
 ******
 Résumé
 ******
 
-    Je suis à la recherche d'opportunités qui me permettent de valoriser et d'améliorer mes compétences Gnu/Linux, sur des projets si possible Open Source.
+    Je suis à la recherche d'opportunités qui me permettent de valoriser et d'améliorer mes compétences GNU/Linux, sur des projets si possible Open Source.
 
     Une ambiance startup ne serait pas pour me déplaire.
 
-    J'ai développé pendant une quinzaine d'années pour des systèmes électroniques embarqués basés sur des micro-contrôleurs. J'ai utilisé pour cela des outils issus de la communauté Open Source : gcc, eclipse, openocd, lwip, freeRTOS... Je développe tous mes projets dans un environnement Gnu/Linux Debian.
+    J'ai développé pendant une quinzaine d'années pour des systèmes électroniques embarqués basés sur des micro-contrôleurs. J'ai utilisé pour cela des outils issus de la communauté Open Source : gcc, eclipse, openocd, lwip, freeRTOS... Je développe tous mes projets dans un environnement GNU/Linux Debian.
 
     Je souhaite obtenir plus de connectivité de mes projets, et m'intéresse au monde des objets connectés.
 
@@ -25,7 +25,7 @@ Résumé
 
     J'utilise Git pour la gestion de mes développement et pour me permettre de travailler en équipe/communauté. J'ai utilisé CVS précédemment.
 
-    L'apprentissage est sans fin, mais je commence à vraiment bien connaître l'environnement Gnu/linux Debian et Raspbian.
+    L'apprentissage est sans fin, mais je commence à vraiment bien connaître l'environnement GNU/linux Debian et Raspbian.
 
 
 
