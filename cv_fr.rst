@@ -56,7 +56,7 @@ Linux embarqué - Raspberry Pi - enregistreur de traces autonome
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * depuis mars 2013
 
-    Mise en place d'un framework d'entreprise.
+    Mise en place des premiers éléments d'une plateforme d'entreprise.
     
     Utilisation de la distribution GNU/Linux Raspbian.
     Programmation en Python.
@@ -168,7 +168,7 @@ Automate Entrées/Sorties
 Langues
 *******
 
-    Anglais, lu assez bon, écrit et parlé moyen
+    Anglais: je le lis tous les jours assez aisément, l'écrit peu, et ne le parle quasiment jamais.
 
     
 ***********
@@ -199,7 +199,7 @@ Math Spé, M
 
 Opéra National de Paris
 =======================
-Elève de l'école de Danse pendant 5 ans
+Elève de l'école de Danse pendant 4 ans
 ---------------------------------------
 * 1982 – 1986
 
@@ -217,5 +217,5 @@ Infos supplémentaires
 Centres d'intérêt
 =================
 
-    * J'aime jouer de la guitare, faire du vélo, les activités de plein air et randonner.
+    * Guitare, vélo, escalades, activités de plein air, randonnées en montagne.
     * J'adhère aux principes du logiciel libre.
