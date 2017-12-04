@@ -19,15 +19,17 @@ Résumé
 
     Je suis à la recherche d'opportunités qui me permettent de valoriser et d'améliorer mes compétences GNU/Linux sur des projets si possible Open Source. Une ambiance startup ne serait pas pour me déplaire. Je souhaite travailler en équipe.
     
-    Passionné par la découverte et l'apprentissage de nouvelles technologies, j'ai toujours cherché à améliorer mes produits en incluant les avancées à ma disposition. Je me suis ainsi spécialisé de plus en plus dans le développement logiciel.
+    Passionné par la découverte et l'apprentissage de nouvelles technologies, j'ai toujours cherché à améliorer mes produits en incluant les avancées à ma disposition. Je me suis ainsi spécialisé dans le développement logiciel.
 
     J'ai conçu du hardware et développé des logiciels pendant une quinzaine d'années pour des systèmes électroniques embarqués basés sur des micro-contrôleurs. J'ai utilisé pour cela des outils issus de la communauté Open Source : gcc, eclipse, openOCD, LwIP, FreeRTOS... Je développe depuis tous mes projets dans un environnement GNU/Linux Debian. A mes débuts, j'ai aussi utilisé des environnement propriétaires : Keil, IAR
-
-    Je souhaite que mes nouveaux projets soit communiquant et je m'intéresse au monde des objets connectés.
 
     J'ai choisi de me former au langage Python pour la programmation objet, Raspberry pour le support matériel, et Yocto pour la mise en place à terme d'une distribution spécifique sur une nouvelle plate-forme matériel.
 
     J'utilise Git pour la gestion de mes développement et pour me permettre de travailler en équipe/communauté. J'ai utilisé CVS précédemment.
+
+    Je souhaite que mes nouveaux projets soit communiquant et je m'intéresse au monde des objets connectés.
+    
+    Je dois pour cela changer d'entreprise car mes objectifs ne sont plus en adéquation avec les priorités de mon entreprise. 
 
     L'apprentissage ne sera jamais terminé, mais je commence à vraiment bien connaître l'environnement GNU/Linux Debian et Raspbian.
 
@@ -51,6 +53,20 @@ Concepteur/développeur électronique embarquée
     
 Quelques projets
 ----------------
+
+Raspberry Pi - Controle d'accès à un parking par reconnaissance de plaques
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* depuis avril 2017
+
+    * Détections des plaques minéralogiques.
+    * Controle des accès par un service externalisé.
+    * Fonctionnement autonome.
+    * IHM sous Qt
+    * Accès internet en 4G.
+    * Programmation applicatif en Python.
+    * Configuration system
+    * Distribution GNU/Linux Raspbian.
 
 Linux embarqué - Raspberry Pi - enregistreur de traces autonome
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
