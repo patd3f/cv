@@ -1,0 +1,344 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+% \usepackage[francais]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Patrick}
+\familyname{Deflandre}
+\title{Design and development of embedded Linux systems}                          % optional, remove / comment the line if not wanted
+\address{1 rue de Bonne}{38000 Grenoble}    % optional, remove / comment the line if not wanted
+\mobile{+33 (0)6 77 29 85 61}                     % optional, remove / comment the line if not wanted
+\email{patrick.deflandre@gmail.com}                          % optional, remove / comment the line if not wanted
+% \homepage{www.johndoe.com}                    % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}            % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{profile}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{I am looking for opportunities that allow me to enhance and improve my GNU / Linux skills on projects if possible Open Source. \\ A startup atmosphere would not displease me. \\ I want to work in a team.}                            % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Expériences}
+% \subsection{Vocational}
+% \cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+% Detailed achievements:%
+% \begin{itemize}%
+% \item Achievement 1;
+% \item Achievement 2, with sub-achievements:
+%   \begin{itemize}%
+%   \item Sub-achievement (a);
+%   \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+%     \begin{itemize}
+%     \item Sub-sub-achievement i;
+%     \item Sub-sub-achievement ii;
+%     \item Sub-sub-achievement iii;
+%     \end{itemize}
+%   \item Sub-achievement (c);
+%   \end{itemize}
+% \item Achievement 3.
+% \end{itemize}}
+
+\subsection{Embedded Linux}
+\cventry{2013--2017}{Embedded system developer}{GEA}{Meylan}{}{Integration of Linux into our equipment \\ I wish to develop this part of my job.
+\begin{itemize}%
+\item Raspberry Pi - Parking access control by plate recognition
+  \begin{itemize}
+   \item Number Plate Detections.
+   \item Access control by an outsourced service.
+   \item Standalone operation.
+   \item HMI under Qt
+   \item Internet access in 4G.
+   \item Programming in Python.
+   \item System configuration
+   \item GNU/Linux Raspbian distribution.
+  \end{itemize}
+\item Raspberry Pi - RS232 logger
+  \begin{itemize}
+    \item Setting up elements of a corporate platform.
+    \item Using the Raspbian GNU / Linux distribution.
+    \item Setting up sftp, ssh, wi-fi access point.
+    \item Building packages for installation by the apt manager.
+    \item Creating installation scripts in bash.
+    \item Setting up a distribution repository for business packages (reprerepro, lighttpd).
+    \item Programming in Python.  \end{itemize}
+\item Atmel SAMA5D3X - Pre-study of an electronic card using a Linux kernel
+  \begin{itemize}
+    \item Using buildroot, then putting Yocto into practice in this environment
+    \item Learning features offered by OpenEmbedded and Yocto projects.
+    \item System image generation, kernel, U-boot ...
+    \item Creating a custom embedded Linux distribution.
+    \item This project has not been industrialized
+  \end{itemize}
+\item Using Yocto
+  \begin{itemize}
+    \item Learning system imaging techniques for embedded target.
+    \item Setting up a recipe
+    \item Building System Images
+  \end{itemize}
+\end{itemize}}
+
+\subsection{Embedded electronics}
+\cventry{1998--2013}{Electronic designer}{GEA}{Meylan}{}{Study and Design of electronic boards
+\begin{itemize}
+ \item IP printer on thermal paper
+  \begin{itemize}
+   \item Development of a control board for an APS HSP3500 print module.
+    \begin{itemize}
+     \item ATMEL AT91SAM7X
+     \item Communication: by IP
+     \item Print speed: 250 mm/s
+     \item OS: FreeRTOS
+     \item Services: http, telnet, print server, tftp, file system miniFat.
+    \end{itemize}
+  \end{itemize}
+ \item Serial communication printer on thermal paper
+  \begin{itemize}
+   \item Development of a control card for 2 Axiohm RMDV or RMDG printing modules.
+    \begin{itemize}
+     \item ATMEL AT91SAM7X
+     \item Communication: by RS232.
+     \item Print speed: 100 mm/s
+     \item OS: FreeRTOS
+     \item The 2 print modules work synchronously.
+    \end{itemize}
+   \item In any case, I've develop 4 generations of printers for my company.
+  \end{itemize}
+ \item High visibility customer displays
+  \begin{itemize}
+    \item Texas Instruments MSP430F149
+    \item Hardware and software development.
+    \item LED backlighting.
+    \item I have set up a modular structure, to allow quick adaptations for our different customers.
+    \item This display is available in many specific versions.
+  \end{itemize}
+ \item Graphical Display
+  \begin{itemize}
+   \item Hardware and Software development.
+   \item A board to refresh the display
+    \begin{itemize}
+     \item PARALLAX SX28L
+     \item Written in assembler
+     \item Hard time constraints
+    \end{itemize}
+   \item A board for communication and layout
+    \begin{itemize}
+     \item Infineon C163
+     \item Written in C
+    \end{itemize}
+  \end{itemize}
+ \item Pedestrian access control in car parks
+  \begin{itemize}
+    \item Reading RFID tags
+    \item I developed a proprietary bus protocol for inter-card token communication
+    \item Automatic detection of slave cards.
+    \item This product has been declined in several versions.
+   \end{itemize}
+ \item Automatic Class Detection Simulator
+  \begin{itemize}
+   \item Development for test needs in-house, but eventually sold to our customers too.
+  \end{itemize}
+ \item Inputs / Outputs PLCs
+  \begin{itemize}
+   \item Automatic gate management
+   \item Equipment management automats: alarms, equipment lighting, vehicles passing.
+  \end{itemize}
+\end{itemize}}
+
+\subsection{Technical Writer}
+\cventry{1995--1998}{Technical support}{GEA}{Meylan}{}{Description
+\begin{itemize}
+    \item Writing test procedures
+    \item Internal and external training
+\end{itemize}
+}
+\cventry{1993--1993}{Technical Writing Assistant} {EDF Research and Studies Department} {Clamart} {} {Writing of technical study summary reports on network overvoltages 
+\begin{itemize}
+    \item Reports read
+    \item Summaries of these reports on a few paragraphs
+\end{itemize}
+}
+
+\subsection{Testing and installation of industrial equipment}
+\cventry{1993--1994}{Test Technician} {GEA} {Meylan} {} {Factory Tests \ Installation at our customers
+\begin{itemize}
+    \item Electronic tests
+    \item Module tests
+    \item Tests of mounted assemblies
+    \item Troubleshooting electronic cards
+    \item Commissioning at our customers
+\end{itemize}
+}
+\cventry{1992--1992}{Technical internship DUT} {EDF} {Saint-Vulbas} {Bugey nuclear power station} {Pre-study of the replacement of an industrial automaton
+\begin{itemize}
+    \item First industrial experience
+    \item Taking into account a nuclear-type secure environment
+    \item The automaton had the function of opening the vessels of the reactors.
+    \item Telemecanique PLC TSX47
+    \item Grafcet
+\end{itemize}
+}
+
+\subsection{Choreographic arts}
+% \cventry{1986--1986}{Vendeur}{Darty}{Valence}{Job d'été}{
+% \begin{itemize}
+%  \item Rayon petit électroménager.
+% \end{itemize}
+% }
+\cventry{1986--1986}{Dancer} {Ballet du Nord} {Roubaix} {} {
+\begin{itemize}
+ \item Several shows in Roubaix and on tour in France.
+\end{itemize}
+}
+\cventry{1986--1986}{Dancer} {Ballet théatre populaire en liberté} {Aulnoye Aymeries} {} {
+\begin{itemize}
+ \item Shows in the area.
+\end{itemize}
+}
+\cventry{1985--1985}{Dancer} {Carpentra Festival} {Carpentra} {} {
+\begin{itemize}
+ \item Participation in a Opera Opera performance
+\end{itemize}
+}
+\cventry{1985--1985}{Dancer} {Ballet of Paris} {Paris, Germany} {} {
+\begin{itemize}
+ \item 3 months tour in Germany.
+\end{itemize}
+}
+\cventry{1980--1984}{Student dancer} {Paris Opera} {Paris} {} {
+\begin{itemize}
+    \item Participation in many shows at the Opera, but also touring France, Germany and Japan.
+    \item During these years I acquired a sense of detail, a capacity for work and an artistic sensibility.
+\end{itemize}
+}
+
+\clearpage
+\section{Technical skills}
+\cvdoubleitem{Linux}{Debian, Ubuntu, Raspbian}
+{MicroPC}{Raspberry Pi 2 and 3}
+
+\cvdoubleitem{Desktop}{KDE, Gnome}
+{IDE}{Eclipse, Vim, Kate, Anjuta}
+
+\cvdoubleitem{Programming}{GCC, GDB, JTAG}
+{Languages} {C, Assembler, Python, HTML, PHP, \ LaTeX {}, uml}
+
+\cvdoubleitem{RTOS}{FreeRTOS}
+{Python}{virtualenv, stdeb}
+
+\cvdoubleitem{VCS}{Git, GitHub, CVS, cervisia}
+{Document}{reStructuredText, markdown, doxygen}
+
+\cvdoubleitem{Open Source}{OpenOCD, LwIP, miniFat, libdmtx, pifaceRTC}
+{Debian system}{build packages, repository, system configuration}
+
+\cvdoubleitem{Ethernet}{TCP/IP, phy mii}
+{HMI}{Qt,Gnome}
+
+\cvdoubleitem {Electronics} {Design, development, firmware, project management, testing}
+{MicroProc} {MSP430, C163, AT91SAM7X, ARM}
+
+\cvdoubleitem{Security}{gpg, ssh}
+{Database}{MySql}
+
+
+\section{Education}
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{1991--1992}{DUT}{IUT Joseph Fourier}{Grenoble}{\textit{Electrical Engineering and Computer Science}}{
+\begin{itemize}
+ \item For the sake of independence, I preferred to accelerate my professional training rather than to do an engineering school.
+\end{itemize}
+}
+\cventry{1988--1990}{Math Spé}{Lycée Mariette}{Boulogne sur mer}{preparatory school for entrance to Grandes Ecole, Math}{
+\begin{itemize}
+ \item I resumed my studies after a break of 2 years during which I devoted myself to the dance.
+\end{itemize}
+}
+\cventry{1980--1984}{End of 2nd Division} {Paris National Opera} {Paris} {Student of the Dance School} {
+\begin{itemize}
+ \item Two of my school friends have become Opera dancer stars.
+\end{itemize}
+}
+
+\section{Languages}
+\cvitemwithcomment {French} {Mother tongue} {}
+\cvitemwithcomment {English} {Medium} {Read fluently, not much written and spoken pratice}
+
+\section{Interests}
+\cvitem {Music} {Guitar, audio recordings}
+\cvitem {Sport} {Hiking and cycling, climbing, dinghy}
+\cvitem {Open source} {I adhere to free software principles}
+
+\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+
+\section{Licences}
+\cvlistdoubleitem {Driver's license A} {Driver's license  B}
+\cvlistdoubleitem {Boats License} {}
+\cvlistdoubleitem {Private Pilot License Airplane} {Glider Pilot Training}
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{HR Manager} {Company \\ Mailing Address \\ City}
+\date{December 4 2017}
+\opening{Dear Madam, dear Sir,}
+\closing{Sincerely,}
+\enclosure[Attached]{curriculum vit\ae{}}     % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+    I am looking for opportunities that allow me to value and improve my GNU / Linux skills on open source projects. A startup atmosphere would not displease me. I want to work in a team.
+    
+    Passionate about discovering and learning new technologies, I have always sought to improve my products by including the advances at my disposal. I specialized in software development.
+
+    I designed hardware and developed software for fifteen years for embedded electronic systems based on micro-controllers. I used tools from the Open Source community: gcc, eclipse, openOCD, LwIP, FreeRTOS ... I develop all my projects in a GNU / Linux Debian environment. In my early days, I also used proprietary environments: Keil, IAR
+
+    I chose to train in the Python language for object programming, Raspberry for hardware support, and Yocto for the implementation of a specific distribution on a new hardware platform.
+
+    I use Git to manage my development and allow me to work in a team / community. I used CVS previously.
+    
+    I want my new projects to be communicating and I'm interested in the world of connected objects.
+    
+    I wish to join a new team because my goals are no longer in line with the priorities of my company.
+
+    The learning will never be finished, but I'm really getting to know the GNU / Linux Debian and Raspbian environment.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
+ 
